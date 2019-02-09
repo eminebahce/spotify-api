@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js",
-    "start:dev": "node src/server.js"
+    "start": "node src/server.js"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +17,8 @@
     "jsonwebtoken": "^8.4.0",
     "lodash": "^4.17.11",
     "pg": "^6.4.2",
-    "sequelize": "^4.42.0"
+    "sequelize": "^4.42.0",
+    "sequelize-cli": "^5.4.0"
   },
   "production": {
     "use_env_variable": "DATABASE_URL"
